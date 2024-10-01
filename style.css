@@ -1,7 +1,8 @@
 html{background-color: rgb(245, 245, 245);}
 
 *{padding: 0;
-  margin: 0;}
+  margin: 0;
+box-sizing: border-box;}
 
 /*Adding header*/
   
@@ -15,9 +16,108 @@ html{background-color: rgb(245, 245, 245);}
   .logo{display: inline-block;
                 vertical-align: middle;} 
                     
-  .header{background-color:white;
+  #header{background-color:white;
            padding: 10px 10px;}
   
 /*Adding MAIN*/
+      
+          /*ADDING MAIN-HEADER*/
 
-       
+#container{background-color: white;
+     width: 70%;
+      margin:50px auto;
+      padding: 10px;}
+
+ .box{ border-bottom: 1px solid rgb(211, 211, 211);}   
+
+ .add-task{ display: inline-block;
+            background-color: #47ADF1;
+             border-radius: 10%;
+            margin: 10px 0 10px 40px
+            }
+ .add-section {display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+     border: 1px solid rgb(211, 211, 211);
+  }
+  .task{ padding: 5px;
+          text-align: center;
+          font-size: 0.8em;
+           color: white;
+           font-family: "Roboto", system-ui;
+           font-weight: 500;
+           font-style: normal;
+           padding: 5px 5px;}
+          .section{ padding: 5px;
+            text-align: center;
+             font-size: 0.8em;
+             color: rgb(211, 211, 211);
+             font-family: "Roboto", system-ui;
+             font-weight: 500;
+             font-style: normal;
+           padding: 4px 5px; }
+
+                 /* ADD LIST*/
+
+.list1{font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+margin-bottom: 20px;
+     }
+
+.opt{font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;}
+
+
+.block{background-color: #45ABE9;
+       border-radius:  30%  ;
+    color: white;
+font-size: 0.8em;
+padding: 2px 5px;}
+
+.block2{background-color: #9C72E4;
+    border-radius:  30%  ;
+ color: white;
+font-size: 0.8em;
+padding: 2px 5px;}
+
+.block3{background-color:#64C0A9;
+    border-radius:  30%  ;
+ color: white;
+font-size: 0.8em;
+padding: 2px 5px;}
+
+.block4{background-color: #F29E33;
+    border-radius:  30%  ;
+ color: white;
+font-size: 0.8em;
+padding: 2px 5px;}
+
+.block5{background-color:#D863A0;
+    border-radius:  30% ;
+ color: white;
+font-size: 0.8em;
+padding: 2px 5px;}
+
+.block6{background-color: #B0C926;
+    border-radius:  30%  ;
+ color: white;
+font-size: 0.8em;
+padding: 2px 5px;}
+
+/*ADD-SIGN*/
+.okay{color: green;
+   border-radius: 50%;
+   border: 0.5px solid green}
+
+.no{color: red;
+    border-radius: 50%;
+    border: 0.5px solid red;}
+
+
+.list{ margin-left: 40px;
+       }
