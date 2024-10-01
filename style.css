@@ -64,7 +64,9 @@ box-sizing: border-box;}
     font-style: normal;
     display: inline-block;
     vertical-align: middle;
-margin-bottom: 20px;
+margin-bottom: 10px;
+margin-top: 20px;
+
      }
 
 .opt{font-family: "Poppins", sans-serif;
