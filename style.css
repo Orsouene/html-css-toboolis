@@ -1,0 +1,23 @@
+html{background-color: rgb(245, 245, 245);}
+
+*{padding: 0;
+  margin: 0;}
+
+/*Adding header*/
+  
+  .toboolist{color: black;
+               font-family: "Poppins", sans-serif;
+               font-weight: 700;
+               font-style: normal;
+               display: inline-block;
+               vertical-align: middle;}
+       
+  .logo{display: inline-block;
+                vertical-align: middle;} 
+                    
+  .header{background-color:white;
+           padding: 10px 10px;}
+  
+/*Adding MAIN*/
+
+       
