@@ -32,12 +32,12 @@ box-sizing: border-box;}
 
  .add-task{ display: inline-block;
             background-color: #47ADF1;
-             border-radius: 10%;
+             border-radius: 3px;
             margin: 10px 0 10px 40px
             }
  .add-section {display: inline-block;
     background-color: rgb(255, 255, 255);
-    border-radius: 10%;
+    border-radius: 3px ;
      border: 1px solid rgb(211, 211, 211);
   }
   .task{ padding: 5px;
@@ -76,37 +76,37 @@ margin-top: 20px;
 
 
 .block{background-color: #45ABE9;
-       border-radius:  30%  ;
+       border-radius:  10px  ;
     color: white;
 font-size: 0.8em;
 padding: 2px 5px;}
 
 .block2{background-color: #9C72E4;
-    border-radius:  30%  ;
+    border-radius:  10px ;
  color: white;
 font-size: 0.8em;
 padding: 2px 5px;}
 
 .block3{background-color:#64C0A9;
-    border-radius:  30%  ;
+    border-radius:  10px ;
  color: white;
 font-size: 0.8em;
 padding: 2px 5px;}
 
 .block4{background-color: #F29E33;
-    border-radius:  30%  ;
+    border-radius:  10px  ;
  color: white;
 font-size: 0.8em;
 padding: 2px 5px;}
 
 .block5{background-color:#D863A0;
-    border-radius:  30% ;
+    border-radius:  10px ;
  color: white;
 font-size: 0.8em;
 padding: 2px 5px;}
 
 .block6{background-color: #B0C926;
-    border-radius:  30%  ;
+    border-radius:  10px ;
  color: white;
 font-size: 0.8em;
 padding: 2px 5px;}
